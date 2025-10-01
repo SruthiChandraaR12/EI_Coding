@@ -1,4 +1,4 @@
-#  Exercise_1 & SmartOffice Projects
+#  Design Patterns & SmartOffice Projects
 
 This repository contains two Java-based projects:
 
