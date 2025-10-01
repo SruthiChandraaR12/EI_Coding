@@ -1,14 +1,16 @@
-📘 Exercise_1 & SmartOffice Projects
+#  Exercise_1 & SmartOffice Projects
 
 This repository contains two Java-based projects:
 
-Exercise_1 – A collection of coding exercises that demonstrate important Design Patterns (Creational, Structural, Behavioral).
+- **Exercise_1** – A collection of coding exercises that demonstrate important **Design Patterns** (Creational, Structural, Behavioral).  
+- **SmartOffice** – A smart office simulation system with booking, occupancy tracking, and IoT-inspired device control.  
 
-SmartOffice – A smart office simulation system with booking, occupancy tracking, and IoT-inspired device control.
+Both projects are intended for **learning object-oriented programming**, **design principles**, and **real-world system simulation**.
 
-Both are intended for learning object-oriented programming, design principles, and real-world system simulation.
+---
 
-📂 Repository Structure
+##  Repository Structure
+```
 root/
 │── Exercise_1/                  # Design pattern exercises
 │   ├── Behavioural design pattern/
@@ -29,64 +31,65 @@ root/
 │   └── sources.txt              # Source listing
 │
 └── README.md
+```
 
-📚 Exercise_1 – Design Pattern Demos
+---
 
-A collection of Java programs demonstrating design patterns:
+##  Exercise_1 – Design Pattern Demos
 
-Creational Patterns
+A collection of Java programs demonstrating **classic design patterns**.
 
-Factory Pattern → FoodDeliveryApp.java
+### Creational Patterns
+- **Factory Pattern** → `FoodDeliveryApp.java`
+- **Singleton Pattern** → `SingletonDB.java`
 
-Singleton Pattern → SingletonDB.java
+### Structural Patterns
+- **Adapter Pattern** → `SocialMediaApp.java`
+- **Decorator Pattern** → `DecoratorUseCase.java`
 
-Structural Patterns
+### Behavioral Patterns
+- **Observer Pattern** → `StockChange.java`
+- **Strategy Pattern** → `PaymentStrategy.java`
 
-Adapter Pattern → SocialMediaApp.java
-
-Decorator Pattern → DecoratorUseCase.java
-
-Behavioral Patterns
-
-Observer Pattern → StockChange.java
-
-Strategy Pattern → PaymentStrategy.java
-
-▶ Run Example
-# Compile & run a specific example
+#### ▶ Run Example
+Compile and run a specific example:
+```bash
 javac Exercise_1/Creational\ design\ pattern/Factory\ Pattern/FoodDeliveryApp.java
 java Exercise_1.Creational.design.pattern.FactoryPattern.FoodDeliveryApp
+```
 
-🚀 SmartOffice – Office Simulation
+---
 
-A Java application that simulates smart office operations with room booking, sensors, and IoT-style devices.
+##  SmartOffice – Office Simulation
 
-✨ Features
+A Java application that simulates **smart office operations** with room booking, sensors, and IoT-style devices.
 
-Room booking & cancellation system.
+###  Features
+- Room booking & cancellation system  
+- Occupancy tracking with sensors  
+- Configurable room capacity  
+- Device management (Lights, Air Conditioners)  
+- Notifications (SMS, Email)  
+- Command pattern for flexible actions  
 
-Occupancy tracking with sensors.
-
-Configurable room capacity.
-
-Device management (Lights, Air Conditioners).
-
-Notifications (SMS, Email).
-
-Command pattern for flexible actions.
-
-▶ Run Instructions (from run.txt)
-javac -d out src/com/smartoffice//*.java
+#### Run Instructions (from `run.txt`)
+```bash
+javac -d out src/com/smartoffice/*.java
 java -cp out com.smartoffice.SmartOfficeApp
+```
 
-🛠 Requirements
+---
 
-Java JDK 8+
+## 🛠 Requirements
+- **Java JDK 8+**  
+- Any IDE (Eclipse, IntelliJ, VS Code) or command-line tools  
 
-Any IDE (Eclipse, IntelliJ, VS Code) or command-line tools.
+---
 
-🧪 Testing
+##  Testing
+- Run individual `.java` files inside **Exercise_1** for design pattern examples  
+- Run **SmartOfficeApp** in the SmartOffice project for full simulation  
 
-Run individual .java files inside Exercise_1 for design pattern examples.
+---
 
-Run SmartOfficeApp in the SmartOffice project for simulation.
+ This repository serves as a **hands-on guide** to Java **design patterns** and **system simulation concepts**.
