@@ -12,7 +12,7 @@ Both projects are intended for **learning object-oriented programming**, **desig
 ##  Repository Structure
 ```
 root/
-│── Exercise_1/                  # Design pattern exercises
+│── Exercise_1/                 
 │   ├── Behavioural design pattern/
 │   │   ├── Observer Pattern/StockChange.java
 │   │   └── Strategy Pattern/PaymentStrategy.java
@@ -24,11 +24,11 @@ root/
 │   │   └── Decorator Pattern/DecoratorUseCase.java
 │   └── .git/                    
 │
-│── SmartOffice/                 # Smart office management system
-│   ├── src/com/smartoffice/     # Java source files
-│   ├── out/com/smartoffice/     # Compiled classes
-│   ├── run.txt                  # Run instructions
-│   └── sources.txt              # Source listing
+│── SmartOffice/                
+│   ├── src/com/smartoffice/     
+│   ├── out/com/smartoffice/     
+│   ├── run.txt                  
+│   └── sources.txt             
 │
 └── README.md
 ```
